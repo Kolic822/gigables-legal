@@ -25,11 +25,11 @@ th { background: var(--head); }
 <body>
 <main>
 <h1>Gigables Privacy Policy and Terms of Use</h1>
-<p class="date">Effective 19 November 2026</p>
+<p class="date">Effective 23 November 2026</p>
 <nav><a href="#privacy">Privacy Policy</a> · <a href="#terms">Terms of Use</a></nav>
 
 <h2 id="privacy">Privacy Policy</h2>
-<p>Your gigs, fees, expenses and notes stay on your device and in your own iCloud, and we cannot read them. We can only access the small amount of data needed for usernames, invitations and moderation.</p>
+<p>Your gigs, fees, expenses and notes stay on your device and in your own iCloud, and we cannot read them. We can only access the small amount of data needed for usernames, invitations, live links and moderation.</p>
 <p>Gigables is run by Teo Kolić, Croatia ("we"), who is the data controller. Contact: <a href="mailto:gigables.support@gmail.com">gigables.support@gmail.com</a>.</p>
 
 <h3>What data is handled</h3>
@@ -42,9 +42,14 @@ th { background: var(--head); }
 <tr><td>Friend requests, invitations and gig replies: sender, recipient, type, share link or gig code</td><td>Public part of the app's iCloud storage</td><td>The recipient and us. A modified app could also read them, so they hold no gig details</td></tr>
 <tr><td>Reports: who reported whom, the reason, any text you add</td><td>Restricted part of the app's iCloud storage</td><td>Us</td></tr>
 <tr><td>Bans: Apple identifier and username</td><td>Public part of the app's iCloud storage</td><td>Gigables apps, so they can apply the ban, and us</td></tr>
+<tr><td>Push addresses: the codes Apple gives each of your devices so they can receive notifications</td><td>Your profile, in the public part of the app's iCloud storage</td><td>Our notification service, which only reads them to deliver an invitation or update to you, and us</td></tr>
+<tr><td>Notification log: which invitation or update was delivered, the sender's Apple identifier, and when</td><td>Our server at Cloudflare, Western Europe</td><td>Us. Used to stop duplicates and spam</td></tr>
+<tr><td>Live links you create: your username, each person's name and role, the link's settings, and the details of the gigs it shows: artist, venue, date, place and address, Agenda, departure and meeting point, sleeping over, contact name and phone, accommodation, dinner, notes for everyone, cancelled, and the lineup's names and roles. Never fees or paid status</td><td>Our server at Cloudflare, Western Europe</td><td>Anyone with that link, and us</td></tr>
+<tr><td>Live link answers and notifications: accepted, declined or going and when, and the browser's push address if the viewer turns notifications on</td><td>Our server at Cloudflare, Western Europe</td><td>The organiser who made the link, and us</td></tr>
 <tr><td>Support emails</td><td>Our email account</td><td>Us</td></tr>
 </table>
 <p>If you never create a username, we hold no data about you unless you email us.</p>
+<p>A live link shows its gigs to anyone who has it, without an account, so share it only with the people it is for. You can turn a link off or replace it at any time in the app. A live link page sets no cookies and runs no analytics, and our server does not store IP addresses. The page remembers in the browser's own storage which links were opened, which band member was picked, and which gigs were already seen. The lineup's names and roles are shown to everyone with a link to that gig.</p>
 <p>If you add someone's name or phone number as a gig contact and share that gig, members will see it. Only do this if that person would expect it.</p>
 <p>When you share a gig or rehearsal, its fee, expenses and notes stay private unless you switch each one on for that gig. They are off by default, and members only see them if you choose to share them.</p>
 <p>When you send past gigs to a friend, they get a one-time copy of the details you chose, including fees only if you switch that on. We cannot read it, and the friend keeps what they add.</p>
@@ -65,7 +70,7 @@ th { background: var(--head); }
 <h3>Why we use your data</h3>
 <table>
 <tr><th>Purpose</th><th>Legal basis (GDPR)</th></tr>
-<tr><td>Running usernames, friends, bands and shared gigs</td><td>Contract: providing the service you asked for</td></tr>
+<tr><td>Running usernames, friends, bands, shared gigs, live links and instant notifications</td><td>Contract: providing the service you asked for</td></tr>
 <tr><td>Handling reports, bans and abuse</td><td>Legitimate interests: keeping people safe</td></tr>
 <tr><td>Calendar, notifications, photos and alarms</td><td>Consent, through the iOS permission</td></tr>
 <tr><td>Answering support emails</td><td>Legitimate interests</td></tr>
@@ -73,7 +78,8 @@ th { background: var(--head); }
 </table>
 
 <h3>Who else is involved</h3>
-<p>Apple runs iCloud, push notifications and Apple Maps for the app, under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. Apple may process data outside the European Economic Area under its own safeguards. We share data with authorities only when the law requires it.</p>
+<p>Apple runs iCloud, push notifications and Apple Maps for the app, under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. Apple may process data outside the European Economic Area under its own safeguards.</p>
+<p>Cloudflare hosts our live links and our instant notification service as our processor, under <a href="https://www.cloudflare.com/cloudflare-customer-dpa/">Cloudflare's data processing terms</a>. Stored data is kept in Western Europe, while each request is handled by Cloudflare's nearest data centre. We share data with authorities only when the law requires it.</p>
 
 <h3>How long data is kept</h3>
 <table>
@@ -83,11 +89,14 @@ th { background: var(--head); }
 <tr><td>Reports and support emails</td><td>12 months after they are closed</td></tr>
 <tr><td>Bans</td><td>As long as needed to keep that person off the service</td></tr>
 <tr><td>Gigs you delete</td><td>30 days in Recently Deleted, then removed</td></tr>
+<tr><td>Gig details on our live link server</td><td>While a live link shows the gig, and at most 180 days after the gig</td></tr>
+<tr><td>Live links you turn off</td><td>30 days, then removed with their answers and notification addresses</td></tr>
+<tr><td>Notification log</td><td>2 days</td></tr>
 </table>
-<p>Deleting your profile frees your username and removes your public records. Other members keep their own copies of gigs you shared with them.</p>
+<p>Deleting your profile frees your username, removes your public records, and deletes your live links and their gigs from our server. Other members keep their own copies of gigs you shared with them.</p>
 
 <h3>Security</h3>
-<p>Data is encrypted in transit and stored with Apple's iCloud protections. No system is perfectly secure, so keep your Apple Account protected with two-factor authentication.</p>
+<p>Data is encrypted in transit and stored with Apple's iCloud and Cloudflare's protections. Live link addresses are long random codes that we store only in hashed form. No system is perfectly secure, so keep your Apple Account protected with two-factor authentication.</p>
 
 <h3>Your rights</h3>
 <p>You can ask for access to your data, correction, deletion, restriction, a portable copy, or object to how we use it. You can withdraw consent at any time, and you can delete your profile in Settings. To use the other rights, email us.</p>
